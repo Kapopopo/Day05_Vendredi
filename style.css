@@ -1,0 +1,158 @@
+main > div > h1, main > fieldset > div > h1 {
+  color: rgb(236, 103, 26);
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+fieldset {
+  margin-top: 4.17vh;
+  width: 15.63vw;
+  height: 40.83vh;
+  margin-bottom: 8.33vh;
+}
+
+.class_1 > h1 {
+  color: slategray;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  padding: 0.42vh;
+}
+
+#underline1 {
+  width: 10.42vw;
+  height: 0.42vh;
+  background-color: red;
+}
+
+#underline2 {
+  width: 13.02vw;
+  height: 0.42vh; /* 5px */
+  background-color: yellow;
+}
+
+#underline3 {
+  width: 10.42vw; /* 200px */
+  height: 0.42vh;
+  background-color: green;
+}
+
+#underline4 {
+  width: 10.42vw;
+  height: 0.42vh;
+  background-color: blue;
+}
+
+#underline5 {
+  width: 10.42vw;
+  height: 0.42vh;
+  background-color: purple;
+}
+
+#line1, #line3 {
+  margin: 0.83vh auto;
+  width: 100vw;
+  height: 0.08vh;
+  background-color: grey;
+}
+
+#line2 {
+  margin-top: 4.17vh;
+  width: 100vw;
+  height: 0.08vh;
+  background-color: grey;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(./misc/grille.png);
+}
+
+footer {
+  position: relative;
+  top: -16.67vh;
+  background-image: url(./misc/grille.png);
+  height: 25vh;
+}
+
+.class_3, .class_4 {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  color: slategray;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+  padding: 0.42vh;
+}
+
+a, p, em {
+  color: slategray;
+}
+
+.class_1 a, .class_4 a {
+  text-decoration: none;
+}
+
+.class_1 a:hover {
+  text-decoration: underline;
+}
+
+.class_3 > h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+#options {
+  margin-top: 4.17vh;
+}
+
+#video {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: slategray;
+  text-align: center;
+  margin-top: 0.83vh;
+  font-size: 2.08vh;
+  background-image: url(./misc/grille.png);
+  height: 8.33vh;
+}
+
+#gafam {
+  text-align: right;
+}
+
+#accro {
+  width: 11.98vw;
+  margin-left: 20.83vw;
+  margin-top: -50vh;
+}
+
+#food {
+  width: 14.06vw;
+  height: 16.67vh;
+  margin-left: 20.83vw;
+}
+
+#comments {
+  width: 26.04vw;
+  margin-left: 52.08vw;
+  position: relative;
+  top: -39.5vh;
+}
+
+#images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1.04vh;
+  width: 15.63vw;
+  margin-left: 52.08vw;
+  position: relative;
+  top: -31.67vh;
+}
