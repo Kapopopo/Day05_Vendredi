@@ -1,3 +1,4 @@
+
 main > div > h1, main > fieldset > div > h1 {
   color: rgb(236, 103, 26);
   font-family: "Oswald", sans-serif;
@@ -75,14 +76,11 @@ footer {
   height: 25vh;
 }
 
-.class_3, .class_4 {
+.class_3 {
   width: 20%;
-  display: inline-block;
-  vertical-align: top;
   color: slategray;
   font-family: "Oswald", sans-serif;
-  font-size: medium;
-  padding: 0.42vh;
+  font-size: small;
 }
 
 a, p, em {
@@ -125,6 +123,8 @@ a, p, em {
 
 #gafam {
   text-align: right;
+  position: relative;
+  top: -6.5vh;
 }
 
 #accro {
@@ -155,4 +155,10 @@ a, p, em {
   margin-left: 52.08vw;
   position: relative;
   top: -31.67vh;
+}
+
+
+.footer_cont {
+  display: flex;
+  justify-content: center;
 }
